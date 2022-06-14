@@ -33,11 +33,10 @@ ul {
 input[name="toggle"] {
   display: none; }
 
-.body-pages {
-  position: relative; }
-  @media (max-width: 767px) {
-    .body-pages {
-      overflow-x: hidden; } }
+.wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
 
 .back-header {
   position: relative;
