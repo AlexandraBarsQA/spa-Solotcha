@@ -1,0 +1,277 @@
+.services {
+  @media (max-width: 480px) {
+    max-width: 100%;
+  }
+}
+
+.services .logo {
+  width: 324px;
+  height: 253px;
+  margin-left: 198px;
+  margin-bottom: 30px;
+
+  @media (max-width: 1600px) {
+    width: 259px;
+    height: 203px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 217px;
+    height: 169px;
+  }
+
+  @media (max-width: 992px) {
+    width: 259px;
+    height: 203px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 480px) {
+    width: 75.63vw;
+    height: 58.96vw;
+  }
+}
+
+.services__list.back-photos__block {
+  top: 10%;
+  left: 40%;
+  transform: translateX(-40%);
+
+  @media (max-width: 1600px) {
+    top: 7%;
+  }
+
+  @media (max-width: 1280px) {
+    top: 7%;
+  }
+
+  @media (max-width: 992px) {
+    top: 7.5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media (max-width: 680px) {
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+
+.services__title {
+  position: relative;
+  font-family: inherit;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+
+  @media (max-width: 1600px) {
+    font-size: 32px;
+    padding-bottom: 15px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 26px;
+    padding-bottom: 13px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 380px) {
+    font-size: 26px;
+    padding-bottom: 10px;
+  }
+}
+
+.services__title::after {
+  position: absolute;
+  content: "";
+  width: 130px;
+  height: 5px;
+  left: 0;
+  bottom: 0;
+  background-color: #91a84a;
+
+  @media (max-width: 1600px) {
+    width: 104px;
+    height: 4px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 87px;
+    height: 3px;
+  }
+
+  @media (max-width: 767px) {
+    width: 104px;
+    height: 4px;
+  }
+
+  @media (max-width: 680px) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media (max-width: 380px) {
+    width: 87px;
+    height: 3px;
+  }
+}
+
+.services ul {
+  margin-top: 4.69vw;
+
+  @media (max-width: 1600px) {
+    margin-top: 3.8vw;
+  }
+
+  @media (max-width: 1480px) {
+    margin-top: 3.5vw;
+  }
+
+  @media (max-width: 992px) {
+    margin-top: 4vw;
+  }
+
+  @media (max-width: 767px) {
+    margin-top: 7vw;
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 10vw;
+  }
+}
+
+.services li {
+  position: relative;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+
+  @media (max-width: 1600px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 17px;
+  }
+
+  @media (max-width: 1180px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 15px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 19px;
+  }
+
+  @media (max-width: 380px) {
+    font-size: 17px;
+  }
+}
+
+.services li:not(:last-child) {
+  margin-bottom: 1.04vw;
+
+  @media (max-width: 1600px) {
+    margin-bottom: 1.06vw;
+  }
+
+  @media (max-width: 1480px) {
+    margin-bottom: 0.7vw;
+  }
+
+  @media (max-width: 1280px) {
+    margin-bottom: 1vw;
+  }
+
+  @media (max-width: 992px) {
+    margin-bottom: 1.05vw;
+  }
+
+  @media (max-width: 767px) {
+    margin-bottom: 2.3vw;
+  }
+
+  @media (max-width: 380px) {
+    margin-bottom: 3vw;
+  }
+}
+
+.services a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a.service__link-active {
+  position: relative;
+  color: #91a84a;
+}
+
+a.service__link-active::before,
+a.service__link-active::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 26px;
+  height: 4px;
+  top: 16px;
+  background-color: #91a84a;
+
+  @media (max-width: 1600px) {
+    width: 20px;
+    height: 3px;
+    top: 13px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 17px;
+    height: 2.5px;
+    top: 11px;
+  }
+}
+
+a.service__link-active::before {
+  left: -40px;
+
+  @media (max-width: 1600px) {
+    left: -32px;
+  }
+
+  @media (max-width: 1280px) {
+    left: -26px;
+  }
+}
+
+a.service__link-active::after {
+  right: -40px;
+
+  @media (max-width: 1600px) {
+    right: -32px;
+  }
+
+  @media (max-width: 1280px) {
+    right: -26px;
+  }
+}
+
+.services__back.back-photos {
+  @media (max-width: 767px) {
+    height: 104.3vw;
+    margin-top: 10%;
+  }
+}

@@ -1,0 +1,150 @@
+.back-header {
+  position: relative;
+  width: 100%;
+  min-height: 680px;
+  background: var(--bgi);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (max-width: 1600px) {
+    min-height: 543px;
+  }
+
+  @media (max-width: 1280px) {
+    min-height: 35.5vw;
+  }
+
+  @media (max-width: 767px) {
+    background-position: 50% 0;
+  }
+
+  @media (max-width: 580px) {
+    background-position: 55% 0;
+  }
+}
+
+.back-header::before,
+.back-header::after {
+  @media (max-width: 767px) {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+}
+
+.back-header::before {
+  @media (max-width: 767px) {
+    // width: 91px;
+    // height: 301px;
+    width: 91px;
+    height: 301px;
+    top: 0;
+    left: 0;
+    background-image: url("../img/branch-branch-mobile1.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  @media (max-width: 480px) {
+    width: 18.96vw;
+    height: 62.7vw;
+  }
+}
+
+.back-header::after {
+  @media (max-width: 767px) {
+    // width: 109px;
+    // height: 179px;
+    width: 109px;
+    height: 179px;
+    top: 0;
+    right: 0;
+    background-image: url("../img/branch-branch-mobile2.png");
+  }
+
+  @media (max-width: 480px) {
+    width: 22.7vw;
+    height: 37.2vw;
+  }
+}
+
+.back-header--service {
+  min-height: 152px;
+
+  @media (max-width: 1600px) {
+    min-height: 121px;
+  }
+
+  @media (max-width: 1280px) {
+    min-height: 102px;
+  }
+}
+
+.back-header--service .main-nav {
+  margin-bottom: 0;
+}
+
+.back-header--service .header-nav {
+  padding-top: 64px;
+  padding-bottom: 55px;
+
+  @media (max-width: 1600px) {
+    padding-top: 50px;
+    padding-bottom: 35px;
+  }
+
+  @media (max-width: 1280px) {
+    padding-top: 43px;
+    padding-bottom: 36px;
+  }
+
+  @media (max-width: 1180px) {
+    padding-top: 30px;
+    padding-bottom: 12px;
+  }
+}
+
+.back-header--service .header-nav::before {
+  //width: 206px;
+  //height: 205px;
+  width: 10.7vw;
+  height: 10.6vw;
+  right: 17.5vw;
+  background-image: url("../img/branch-branch-service.png");
+
+  @media (max-width: 1600px) {
+    // width: 164px;
+    // height: 163px;
+    width: 10.2vw;
+    height: 10.1vw;
+    right: 16.75vw;
+  }
+
+  @media (max-width: 1280px) {
+    // width: 137px;
+    // height: 136px;
+    width: 10.7vw;
+    height: 10.6vw;
+    right: 16.9vw;
+  }
+
+  @media (max-width: 1180px) {
+    // width: 137px;
+    // height: 136px;
+    width: 13.7vw;
+    height: 13.6vw;
+    right: 1.5vw;
+  }
+
+  @media (max-width: 992px) {
+    // width: 137px;
+    // height: 136px;
+    width: 17.7vw;
+    height: 17.6vw;
+  }
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}

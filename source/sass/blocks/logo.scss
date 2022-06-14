@@ -1,0 +1,40 @@
+.logo {
+  position: relative;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 402px;
+  cursor: pointer;
+
+  @media (max-width: 1600px) {
+    height: 321px;
+  }
+
+  @media (max-width: 1280px) {
+    height: 269px;
+  }
+
+  @media (max-width: 767px) {
+    height: 283px;
+  }
+
+  @media (max-width: 480px) {
+    height: 58.9vw;
+  }
+
+  @media (max-width: 380px) {
+    width: 257px;
+    height: 206px;
+  }
+}
+
+.logo img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}

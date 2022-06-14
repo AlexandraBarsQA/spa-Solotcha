@@ -1,0 +1,285 @@
+.back-content {
+  position: relative;
+  width: 100%;
+  background: var(--bgi);
+}
+
+.back-content--about {
+  min-height: 975px;
+  background-image: linear-gradient(to bottom, #edf3ff, transparent 50%),
+    var(--bgi);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 0, 0 30.7vw;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 160px;
+
+  @media (max-width: 1600px) {
+    min-height: 780px;
+    padding-bottom: 128px;
+  }
+
+  @media (max-width: 1280px) {
+    min-height: 653px;
+    background-position: 0 0, 0 34vw;
+    padding-bottom: 107px;
+  }
+
+  @media (max-width: 1180px) {
+    background-size: 150% auto;
+    background-position: 0 0, 0 25vw;
+  }
+
+  @media (max-width: 1080px) {
+    background-image: linear-gradient(to bottom, #edf3ff, transparent 100%),
+      var(--bgi);
+    background-position: 0 0, 0 40vw;
+  }
+
+  @media (max-width: 992px) {
+    background-image: linear-gradient(to bottom, #edf3ff, transparent 200%),
+      var(--bgi);
+    background-position: 0 0, 0 100%;
+    padding-top: 65px;
+  }
+
+  @media (max-width: 767px) {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media (max-width: 480px) {
+    padding-bottom: 75px;
+  }
+
+  @media (max-width: 380px) {
+    padding-bottom: 50px;
+  }
+}
+
+.back-content--center {
+  min-height: 1485px;
+  background: url("../img/sun-2.png") 100% 0 / 100% auto no-repeat,
+    linear-gradient(to bottom, #f7f5e9, transparent 50%),
+    var(--bgi) bottom 0 left 0 / 100% auto no-repeat,
+    linear-gradient(to top, #244600, transparent 100%);
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 123px;
+
+  @media (max-width: 1600px) {
+    min-height: 1188px;
+    padding-top: 72px;
+  }
+
+  @media (max-width: 1280px) {
+    min-height: 995px;
+    padding-top: 60px;
+  }
+
+  @media (max-width: 992px) {
+    min-height: 100%;
+    background: url("../img/sun-2.png") 100% 0 / 100% auto no-repeat,
+      linear-gradient(to bottom, #f7f5e9, transparent 70%),
+      var(--bgi) 0 90% / 150% auto no-repeat,
+      linear-gradient(to top, #244600, transparent 100%);
+  }
+
+  @media (max-width: 767px) {
+    background: url("../img/sun-2.png") 100% 0 / 180% auto no-repeat,
+      linear-gradient(to bottom, #f7f5e9, transparent 70%),
+      var(--bgi) 0 90% / 150% auto no-repeat,
+      linear-gradient(to top, #244600, transparent 100%);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media (max-width: 580px) {
+    background: url("../img/sun-2.png") 100% 0 / 200% auto no-repeat,
+      linear-gradient(to bottom, #f7f5e9, transparent 90%),
+      var(--bgi) 45% 115% / 300% auto no-repeat,
+      linear-gradient(to top, #244600, transparent 100%);
+    padding-top: 47px;
+    padding-bottom: 75px;
+  }
+
+  @media (max-width: 480px) {
+    background: url("../img/sun-2.png") 100% 0 / 300% auto no-repeat,
+      linear-gradient(to bottom, #f7f5e9, transparent 100%),
+      var(--bgi) 45% 105% / 300% auto no-repeat,
+      linear-gradient(to top, #244600, transparent 100%);
+  }
+}
+
+.back-content--bottom {
+  position: relative;
+  min-height: 100%;
+  background-image: linear-gradient(to bottom, #244600, transparent 90%),
+    var(--bgi);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 120px;
+
+  @media (max-width: 1600px) {
+    padding-bottom: 96px;
+  }
+
+  @media (max-width: 1280px) {
+    padding-bottom: 80px;
+  }
+
+  @media (max-width: 580px) {
+    background-position: 50% 0;
+  }
+
+  @media (max-width: 480px) {
+    padding-bottom: 75px;
+  }
+}
+
+.back-content--services {
+  min-height: 1172px;
+  background-image: var(--bgi);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 142px;
+
+  @media (max-width: 1600px) {
+    min-height: 780px;
+    padding-bottom: 128px;
+  }
+
+  @media (max-width: 1280px) {
+    min-height: 653px;
+    padding-bottom: 107px;
+  }
+
+  @media (max-width: 992px) {
+    padding-top: 45px;
+  }
+
+  @media (max-width: 767px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media (max-width: 680px) {
+    padding-top: 30px;
+  }
+
+  @media (max-width: 480px) {
+    padding-top: 20px;
+    padding-bottom: 75px;
+  }
+
+  @media (max-width: 380px) {
+    padding-bottom: 50px;
+  }
+}
+
+.back-content--center-service {
+  min-height: 100%;
+  background: linear-gradient(to bottom, #f7f5e9, transparent 50%),
+    var(--bgi) bottom 10% left / 100% auto no-repeat;
+  padding-top: 90px;
+  padding-bottom: 215px;
+
+  @media (max-width: 1600px) {
+    padding-top: 72px;
+    padding-bottom: 180px;
+  }
+
+  @media (max-width: 1280px) {
+    padding-top: 60px;
+    padding-bottom: 145px;
+  }
+
+  @media (max-width: 767px) {
+    background: linear-gradient(to bottom, #f7f5e9, transparent 75%),
+      var(--bgi) bottom 5% left / 150% auto no-repeat;
+    //padding-bottom: 350px;
+    padding-bottom: 50vw;
+  }
+
+  @media (max-width: 680px) {
+    background: linear-gradient(to bottom, #f7f5e9, transparent 80%),
+      var(--bgi) bottom left / 180% auto no-repeat;
+    padding-top: 47px;
+  }
+
+  @media (max-width: 580px) {
+    background: linear-gradient(to bottom, #f7f5e9, transparent 80%),
+      var(--bgi) bottom left / 200% auto no-repeat;
+    padding-top: 47px;
+    padding-bottom: 65vw;
+  }
+
+  @media (max-width: 480px) {
+    background: linear-gradient(to bottom, #f7f5e9, transparent 80%),
+      var(--bgi) bottom left / 200% auto no-repeat;
+    //padding-bottom: 400px;
+    padding-bottom: 90vw;
+  }
+
+  @media (max-width: 380px) {
+    background: linear-gradient(to bottom, #f7f5e9, transparent 80%),
+      var(--bgi) bottom left / 200% auto no-repeat;
+    //padding-bottom: 320px;
+  }
+}
+
+.back-content--services .about-content__desc {
+  margin-top: 80px;
+
+  @media (max-width: 1600px) {
+    margin-top: 64px;
+  }
+
+  @media (max-width: 1280px) {
+    margin-top: 53px;
+  }
+
+  @media (max-width: 767px) {
+    margin-top: 0;
+  }
+
+  @media (max-width: 580px) {
+    margin-top: 50px;
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 125px;
+  }
+
+  @media (max-width: 380px) {
+    margin-top: 135px;
+  }
+}
+
+.back-content--services .back-photos {
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+}
+
+.back-content--center-service .content-table--advantages {
+  margin-bottom: 230px;
+
+  @media (max-width: 1600px) {
+    margin-bottom: 184px;
+  }
+
+  @media (max-width: 1280px) {
+    margin-bottom: 154px;
+  }
+
+  @media (max-width: 992px) {
+  }
+}

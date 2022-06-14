@@ -1,0 +1,45 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  min-height: 67px;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: #b97c04;
+  cursor: pointer;
+
+  @media (max-width: 1600px) {
+    width: 280px;
+    min-height: 54px;
+    font-size: 16px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 234px;
+    min-height: 45px;
+    font-size: 14px;
+  }
+
+  @media (max-width: 767px) {
+    width: 280px;
+    min-height: 54px;
+    font-size: 16px;
+  }
+
+  @media (max-width: 380px) {
+    width: 245px;
+    min-height: 47px;
+    font-size: 15px;
+  }
+}
+
+.btn--green {
+  background-color: #91a84a;
+}

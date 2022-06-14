@@ -1,0 +1,96 @@
+@mixin _1600 {
+    @media (max-width: 1600px){
+        @content;
+    }
+}
+
+@mixin _1480 {
+    @media (max-width: 1480px){
+        @content;
+    }
+}
+
+@mixin _1280 {
+  @media (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin _1180 {
+  @media (max-width: 1180px) {
+    @content;
+  }
+}
+
+@mixin _1080 {
+  @media (max-width: 1080px) {
+    @content;
+  }
+}
+
+@mixin _992 {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin _840 {
+  @media (max-width: 840px) {
+    @content;
+  }
+}
+
+@mixin _767 {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin _680 {
+  @media (max-width: 680px) {
+    @content;
+  }
+}
+
+@mixin _580 {
+  @media (max-width: 580px) {
+    @content;
+  }
+}
+
+@mixin _480 {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin _380 {
+  @media (max-width: 380px) {
+    @content;
+  }
+}
+
+
+/*  Viewports  */
+
+$tablet-width: 676px;
+$desktop-width: 1280px;
+$mobile-width-only: 540px;
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
+
+/*  Colors  */
+
+:root {
+  --basic-main: #3a1608;
+  --basic-gray: #4d4d4d;
+  --basic-light-gray: #999999;
+  --basic-white: #ffffff;
+  --basic-menu: #b78d5d;
+  --basic-text-button: #ffe7c2;
+  --basic-button: #73432c;
+  --basic-brand: #b5731c;
+}
+
+
+

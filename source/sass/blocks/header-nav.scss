@@ -1,0 +1,130 @@
+.header-nav {
+  position: relative;
+  padding-top: 73px;
+  padding-left: 63px;
+  padding-right: 63px;
+  padding-bottom: 75px;
+
+  @media (max-width: 1600px) {
+    padding-top: 58px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+  }
+
+  @media (max-width: 1280px) {
+    padding-top: 50px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-bottom: 50px;
+  }
+
+  @media (max-width: 767px) {
+    padding-top: 7.35vw;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30vw;
+  }
+
+  @media (max-width: 480px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.header-nav__wrap {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 58px;
+
+  @media (max-width: 1600px) {
+    margin-bottom: 46px;
+  }
+
+  @media (max-width: 1280px) {
+    margin-bottom: 37px;
+  }
+
+  @media (max-width: 1180px) {
+    grid-template-columns: 1fr;
+  }
+
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+}
+
+.header-nav__company {
+  margin-left: 87px;
+
+  @media (max-width: 1600px) {
+    margin-left: 70px;
+  }
+
+  @media (max-width: 1280px) {
+    margin-left: 58px;
+  }
+
+  @media (max-width: 1180px) {
+    margin-left: 4.53vw;
+  }
+
+  @media (max-width: 767px) {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 680px) {
+    margin-top: 65px;
+  }
+}
+
+.header-nav::before {
+  position: absolute;
+  content: "";
+  // width: 369px;
+  // height: 809px;
+  width: clamp(200px, 19vw, 369px);
+  height: 42vw;
+  top: 0;
+  right: 9vw;
+  background-image: url("../img/branch-branch.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 10;
+
+  @media (max-width: 1600px) {
+    // width: 295px;
+    // height: 647px;
+  }
+
+  @media (max-width: 1280px) {
+    // width: 247px;
+    // height: 542px;
+    width: clamp(190px, 19.5vw, 247px);
+    height: 43vw;
+    right: 8vw;
+  }
+
+  @media (max-width: 1180px) {
+    //width: 203px;
+    //height: 444px;
+    width: 19vw;
+    height: 41.9vw;
+    //width: 250px;
+    //height: 548px;
+    right: -1%;
+  }
+
+  @media (max-width: 992px) {
+    width: 27vw;
+    height: 62vw;
+  }
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}

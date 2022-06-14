@@ -1,0 +1,7 @@
+.body-pages {
+  position: relative;
+
+  @media (max-width: 767px) {
+    overflow-x: hidden;
+  }
+}
