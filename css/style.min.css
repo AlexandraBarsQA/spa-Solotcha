@@ -1337,6 +1337,7 @@ a.menu__link-active {
 
 .services__title {
   position: relative;
+  display: block;
   font-family: inherit;
   font-size: 40px;
   font-weight: 300;
