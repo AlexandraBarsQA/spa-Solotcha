@@ -70,7 +70,9 @@ input[name="toggle"] {
     height: 301px;
     top: 0;
     left: 0;
-    background: url("../img/branch-branch-mobile1.png"); } }
+    background: url("../img/branch-branch-mobile1.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto; } }
 
 @media (max-width: 480px) {
   .back-header::before {
