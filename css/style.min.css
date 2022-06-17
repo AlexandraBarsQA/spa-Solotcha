@@ -42,9 +42,7 @@ input[name="toggle"] {
   position: relative;
   width: 100%;
   min-height: 680px;
-  background: var(--bgi);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background: var(--bgi) no-repeat 0 0/cover; }
   @media (max-width: 1600px) {
     .back-header {
       min-height: 543px; } }
@@ -72,9 +70,7 @@ input[name="toggle"] {
     height: 301px;
     top: 0;
     left: 0;
-    background-image: url("../img/branch-branch-mobile1.png");
-    background-repeat: no-repeat;
-    background-size: 100% auto; } }
+    background: url("../img/branch-branch-mobile1.png"); } }
 
 @media (max-width: 480px) {
   .back-header::before {
@@ -539,10 +535,7 @@ a.menu__link-active {
 
 .back-content--about {
   min-height: 975px;
-  background-image: linear-gradient(to bottom, #edf3ff, transparent 50%), var(--bgi);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: 0 0, 0 30.7vw;
+  background: linear-gradient(to bottom, #edf3ff, transparent 50%), var(--bgi) no-repeat 0 30.7vw/100% auto;
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
@@ -562,12 +555,10 @@ a.menu__link-active {
       background-position: 0 0, 0 25vw; } }
   @media (max-width: 1080px) {
     .back-content--about {
-      background-image: linear-gradient(to bottom, #edf3ff, transparent 100%), var(--bgi);
-      background-position: 0 0, 0 40vw; } }
+      background: linear-gradient(to bottom, #edf3ff, transparent 100%), var(--bgi) no-repeat 0 40vw/100% auto; } }
   @media (max-width: 992px) {
     .back-content--about {
-      background-image: linear-gradient(to bottom, #edf3ff, transparent 200%), var(--bgi);
-      background-position: 0 0, 0 100%;
+      background: linear-gradient(to bottom, #edf3ff, transparent 200%), var(--bgi) no-repeat 0 100%/100% auto;
       padding-top: 65px; } }
   @media (max-width: 767px) {
     .back-content--about {
@@ -617,9 +608,7 @@ a.menu__link-active {
 .back-content--bottom {
   position: relative;
   min-height: 100%;
-  background-image: linear-gradient(to bottom, #244600, transparent 90%), var(--bgi);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(to bottom, #244600, transparent 90%), var(--bgi) no-repeat 0 0/cover;
   padding-bottom: 120px; }
   @media (max-width: 1600px) {
     .back-content--bottom {
@@ -636,9 +625,7 @@ a.menu__link-active {
 
 .back-content--services {
   min-height: 1172px;
-  background-image: var(--bgi);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: var(--bgi) no-repeat 0 0/cover;
   padding-top: 35px;
   padding-left: 20px;
   padding-right: 20px;
@@ -671,7 +658,7 @@ a.menu__link-active {
 
 .back-content--center-service {
   min-height: 100%;
-  background: linear-gradient(to bottom, #f7f5e9, transparent 50%), var(--bgi) bottom 10% left/100% auto no-repeat;
+  background: linear-gradient(to bottom, #f7f5e9, transparent 50%), var(--bgi) no-repeat bottom 10% left/100% auto;
   padding-top: 90px;
   padding-bottom: 215px; }
   @media (max-width: 1600px) {
@@ -684,24 +671,24 @@ a.menu__link-active {
       padding-bottom: 145px; } }
   @media (max-width: 767px) {
     .back-content--center-service {
-      background: linear-gradient(to bottom, #f7f5e9, transparent 75%), var(--bgi) bottom 5% left/150% auto no-repeat;
+      background: linear-gradient(to bottom, #f7f5e9, transparent 75%), var(--bgi) no-repeat bottom 5% left/150% auto;
       padding-bottom: 50vw; } }
   @media (max-width: 680px) {
     .back-content--center-service {
-      background: linear-gradient(to bottom, #f7f5e9, transparent 80%), var(--bgi) bottom left/180% auto no-repeat;
+      background: linear-gradient(to bottom, #f7f5e9, transparent 80%), var(--bgi) no-repeat bottom left/180% auto;
       padding-top: 47px; } }
   @media (max-width: 580px) {
     .back-content--center-service {
-      background: linear-gradient(to bottom, #f7f5e9, transparent 80%), var(--bgi) bottom left/200% auto no-repeat;
+      background: linear-gradient(to bottom, #f7f5e9, transparent 80%), var(--bgi) no-repeat bottom left/200% auto;
       padding-top: 47px;
       padding-bottom: 65vw; } }
   @media (max-width: 480px) {
     .back-content--center-service {
-      background: linear-gradient(to bottom, #f7f5e9, transparent 80%), var(--bgi) bottom left/200% auto no-repeat;
+      background: linear-gradient(to bottom, #f7f5e9, transparent 80%), var(--bgi) no-repeat bottom left/200% auto;
       padding-bottom: 90vw; } }
   @media (max-width: 380px) {
     .back-content--center-service {
-      background: linear-gradient(to bottom, #f7f5e9, transparent 80%), var(--bgi) bottom left/200% auto no-repeat; } }
+      background: linear-gradient(to bottom, #f7f5e9, transparent 80%), var(--bgi) no-repeat bottom left/200% auto; } }
 
 .back-content--services .about-content__desc {
   margin-top: 80px; }
@@ -711,6 +698,9 @@ a.menu__link-active {
   @media (max-width: 1280px) {
     .back-content--services .about-content__desc {
       margin-top: 53px; } }
+  @media (max-width: 992px) {
+    .back-content--services .about-content__desc {
+      margin-top: 90px; } }
   @media (max-width: 767px) {
     .back-content--services .about-content__desc {
       margin-top: 0; } }
@@ -1603,6 +1593,37 @@ a.service__link-active::after {
   @media (max-width: 1280px) {
     .content-block__btn {
       margin-top: 37px; } }
+
+.content-block__item {
+  position: relative; }
+
+.content-block__item::before {
+  position: absolute;
+  content: ""; }
+
+li.content-block__item--new::before {
+  position: absolute;
+  content: "";
+  width: 48px;
+  height: 48px;
+  top: -7px;
+  left: -35px;
+  background: transparent;
+  background-image: url("../img/new.svg");
+  background-repeat: no-repeat;
+  background-size: contain; }
+  @media (max-width: 1600px) {
+    li.content-block__item--new::before {
+      width: 36px;
+      height: 36px;
+      top: -5px;
+      left: -24px; } }
+  @media (max-width: 1280px) {
+    li.content-block__item--new::before {
+      width: 28px;
+      height: 28px;
+      top: -4px;
+      left: -20px; } }
 
 .content-table {
   padding-left: 11.46vw;
