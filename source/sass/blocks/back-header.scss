@@ -2,9 +2,7 @@
   position: relative;
   width: 100%;
   min-height: 680px;
-  background: var(--bgi);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: var(--bgi) no-repeat 0 0 / cover;
 
   @media (max-width: 1600px) {
     min-height: 543px;
@@ -41,9 +39,7 @@
     height: 301px;
     top: 0;
     left: 0;
-    background-image: url("../img/branch-branch-mobile1.png");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    background: url("../img/branch-branch-mobile1.png");
   }
 
   @media (max-width: 480px) {

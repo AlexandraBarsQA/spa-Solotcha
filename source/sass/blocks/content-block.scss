@@ -123,3 +123,39 @@
     margin-top: 37px;
   }
 }
+
+.content-block__item {
+  position: relative;
+}
+
+.content-block__item::before {
+  position: absolute;
+  content: "";
+}
+
+li.content-block__item--new::before {
+  position: absolute;
+  content: "";
+  width: 48px;
+  height: 48px;
+  top: -7px;
+  left: -35px;
+  background: transparent;
+  background-image: url("../img/new.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media (max-width: 1600px) {
+    width: 36px;
+    height: 36px;
+    top: -5px;
+    left: -24px;
+  }
+
+  @media (max-width: 1280px) {
+    width: 28px;
+    height: 28px;
+    top: -4px;
+    left: -20px;
+  }
+}
